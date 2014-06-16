@@ -1,0 +1,7 @@
+<Context reloadable="true" crossContext="true">    
+	<Resource 
+        	name="jdbc/ode" 
+                auth="Container" type="javax.sql.DataSource" 
+                factory="bitronix.tm.resource.ResourceObjectFactory" 
+                uniqueName="jdbc/ode" />
+</Context>
